@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section guid="4c140fa911add">
+  <name handle="items">Items</name>
+  <hidden-from-publish-menu>no</hidden-from-publish-menu>
+  <navigation-group>To Do</navigation-group>
+  <publish-order-handle></publish-order-handle>
+  <publish-order-direction></publish-order-direction>
+  <fields>
+    <field guid="4c140fa911b4b">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>to-do</element-name>
+      <name>To Do</name>
+      <publish-label>To Do Item</publish-label>
+      <text-size>single</text-size>
+      <text-formatter></text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>items</section>
+    </field>
+    <field guid="4c140fd8a937c">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <type>checkbox</type>
+      <element-name>open</element-name>
+      <name>Open</name>
+      <publish-label>Open</publish-label>
+      <default-state>on</default-state>
+      <section>items</section>
+    </field>
+    <field guid="4c1487579e05b">
+      <required>yes</required>
+      <show-column>yes</show-column>
+      <limit>20</limit>
+      <type>link</type>
+      <element-name>list</element-name>
+      <name>List</name>
+      <publish-label></publish-label>
+      <section>items</section>
+      <related-fields>
+        <item section="lists" field="name"/>
+      </related-fields>
+    </field>
+  </fields>
+  <layout>
+    <column>
+      <size>large</size>
+      <fieldset>
+        <name></name>
+        <field>to-do</field>
+        <field>open</field>
+      </fieldset>
+    </column>
+    <column>
+      <size>small</size>
+      <fieldset>
+        <name></name>
+        <field>list</field>
+      </fieldset>
+    </column>
+  </layout>
+</section>

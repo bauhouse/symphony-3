@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view guid="4c140a9f37ade">
+  <title>Lists</title>
+  <content-type>text/html;charset=utf-8</content-type>
+  <url-parameters>
+    <item>action</item>
+    <item>list</item>
+    <item>item</item>
+  </url-parameters>
+  <data-sources>
+    <item>comments</item>
+    <item>items</item>
+  </data-sources>
+  <types>
+    <item>index</item>
+  </types>
+</view>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section guid="4c14863b5a988">
+  <name handle="lists">Lists</name>
+  <hidden-from-publish-menu>no</hidden-from-publish-menu>
+  <navigation-group>To Do</navigation-group>
+  <publish-order-handle></publish-order-handle>
+  <publish-order-direction></publish-order-direction>
+  <fields>
+    <field guid="4c14863b5a9e1">
+      <required>yes</required>
+      <show-column>yes</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>name</element-name>
+      <name>Name</name>
+      <publish-label></publish-label>
+      <text-size>single</text-size>
+      <text-formatter></text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>lists</section>
+    </field>
+  </fields>
+  <layout>
+    <column>
+      <size>large</size>
+      <fieldset>
+        <name></name>
+        <field>name</field>
+      </fieldset>
+    </column>
+    <column>
+      <size>small</size>
+      <fieldset>
+        <name></name>
+      </fieldset>
+    </column>
+  </layout>
+</section>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section guid="4c14111ce4eb4">
+  <name handle="comments">Comments</name>
+  <hidden-from-publish-menu>no</hidden-from-publish-menu>
+  <navigation-group>To Do</navigation-group>
+  <publish-order-handle></publish-order-handle>
+  <publish-order-direction></publish-order-direction>
+  <fields>
+    <field guid="4c14111ce4f0b">
+      <required>no</required>
+      <show-column>yes</show-column>
+      <size>medium</size>
+      <type>textbox</type>
+      <element-name>comment</element-name>
+      <name>Comment</name>
+      <publish-label></publish-label>
+      <text-size>medium</text-size>
+      <text-formatter>markdown</text-formatter>
+      <text-validator></text-validator>
+      <text-length>none</text-length>
+      <column-length>75</column-length>
+      <text-handle>yes</text-handle>
+      <section>comments</section>
+    </field>
+    <field guid="4c141175de25e">
+      <required>yes</required>
+      <show-column>yes</show-column>
+      <limit>20</limit>
+      <type>link</type>
+      <element-name>items</element-name>
+      <name>Items</name>
+      <publish-label></publish-label>
+      <section>comments</section>
+      <related-fields>
+        <item section="items" field="to-do"/>
+      </related-fields>
+    </field>
+  </fields>
+  <layout>
+    <column>
+      <size>large</size>
+      <fieldset>
+        <name></name>
+        <field>comment</field>
+        <field>items</field>
+      </fieldset>
+    </column>
+    <column>
+      <size>small</size>
+      <fieldset>
+        <name></name>
+      </fieldset>
+    </column>
+  </layout>
+</section>
