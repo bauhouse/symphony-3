@@ -10,6 +10,7 @@
   <data-sources>
     <item>comments</item>
     <item>items</item>
+    <item>lists</item>
   </data-sources>
   <types>
     <item>index</item>
